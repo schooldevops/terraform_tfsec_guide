@@ -396,4 +396,3 @@ No problems detected!
 
 - 지금까지 tfsec을 이용하여 terraform 의 정적 분석을 수행할 수 있었다. 
 - tfsec을 이용하여 terraform에서 발견된 심각도를 확인하고 수정하여 안전한 코드를 작성할 수 있다. 
-- 
