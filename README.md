@@ -260,7 +260,7 @@ min_required_version: v1.1.2
 resource "aws_elasticache_cluster" "example" {
   cluster_id           = "cluster-example"
   engine               = "redis"
-  node_type            = "cache.m4.large"
+  node_type            = "cache.t4g.large"
   num_cache_nodes      = 1
   parameter_group_name = "default.redis3.2"
   engine_version       = "3.2.10"
@@ -281,7 +281,7 @@ Result #1 MEDIUM Cluster snapshot retention is not enabled.
     1  │ resource "aws_elasticache_cluster" "example" {
     2  │   cluster_id           = "cluster-example"
     3  │   engine               = "redis"
-    4  │   node_type            = "cache.m4.large"
+    4  │   node_type            = "cache.t4g.large"
     5  │   num_cache_nodes      = 1
     6  │   parameter_group_name = "default.redis3.2"
     7  │   engine_version       = "3.2.10"
